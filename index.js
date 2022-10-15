@@ -1,5 +1,12 @@
 //pseudocode
 //create a function 
+let person = prompt("Please enter your name", "Pelumi Dada");
+
+if (person != null) {
+  document.getElementById("greeting").innerHTML =
+  "Hello " + person + "! How are you doing today?";
+}
+
 let p1score1El = document.getElementById("p1");
 let p2score1El = document.getElementById("p2");
 let scoreEl = document.getElementById("score");
@@ -60,9 +67,3 @@ scoreEl.textContent = "Let the game begin";
 console.log ("Working");
 }
 
-let person = prompt("Please enter your name", "Harry Potter");
-
-if (person != null) {
-  document.getElementById("demo").innerHTML =
-  "Hello " + person + "! How are you today?";
-}
