@@ -1,11 +1,11 @@
 //pseudocode
 //create a function 
-let person = prompt("Please enter your name", "Pelumi Dada");
+// let person = prompt("Please enter your name", "Pelumi Dada");
 
-if (person != null) {
-  document.getElementById("greeting").innerHTML =
-  "Hello " + person + "! How are you doing today?";
-}
+// if (person != null) {
+//   document.getElementById("greeting").innerHTML =
+//   "Hello " + person + "! How are you doing today?";
+// }
 
 let p1score1El = document.getElementById("p1");
 let p2score1El = document.getElementById("p2");
