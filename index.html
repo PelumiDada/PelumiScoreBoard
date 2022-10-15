@@ -1,26 +1,32 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <div class="container">
             <div>
-                <h1>HOME</h1>
+                <h1>Player 1</h1>
                 <span>
-                    <h2> 0 </h2>
+                    <h2 id= "p1"> 0 </h2>
                 </span>
-                <h3 id = "score1"> 0 </h3>
-                <h3> 0 </h3>
-                <h3> 0 </h3>
+                <button id = "p1score1" onclick = "p1addPoint1()"> +1 </button>
+                <button id = "p1score2" onclick = "p1addPoint2()"> +2 </button>
+                <button  id = "p1score3" onclick = "p1addPoint3()"> +3 </button>
+                 <button id = "save" onclick= "save()"> End Game </button>
+            </div>
+            <p id = "score"> New Game </p>
+            <div>
+                <h1>Player 2</h1>
+                <span>
+                    <h2 id= "p2"> 0 </h2>
+                </span>
+                <button id = "p2score1" onclick = "p2addPoint1()"> +1 </button>
+                <button id = "p2score2" onclick ="p2addPoint2()"> +2 </button>
+                <button id = "p2score3" onclick = "p2addPoint3()"> +3 </button>
+                 <button id = "reset" onclick= "reset()"> New Game </button>
             </div>
             <div>
-                <h1>HOME</h1>
-                <span>
-                    <h2> 0 </h2>
-                </span>
-                <h3 id = "score2"> 0 </h3>
-                <h3> 0 </h3>
-                <h3> 0 </h3>
+                
             </div>
         </div>
         <script src="index.js"></script>
