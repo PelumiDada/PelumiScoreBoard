@@ -8,6 +8,7 @@ let point = 0;
 let score = 0;
 
 function p1addPoint1() {
+
    point = parseInt(p1score1El.textContent);
     point += 1
     p1score1El.textContent = point;
@@ -57,4 +58,11 @@ function reset() {
 p1score1El.textContent = p2score1El.textContent = 0;
 scoreEl.textContent = "Let the game begin";
 console.log ("Working");
+}
+
+let person = prompt("Please enter your name", "Harry Potter");
+
+if (person != null) {
+  document.getElementById("demo").innerHTML =
+  "Hello " + person + "! How are you today?";
 }
